@@ -1,2 +1,2 @@
-# lucidogmum.github.io
+# lucinda strahan
 a place for all my things
