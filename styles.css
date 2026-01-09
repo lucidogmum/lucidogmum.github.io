@@ -45,8 +45,8 @@ main {
 }
 
 #hero {
-	max-width: 60%;
-	height: auto;
+	width: 500px;
+	height: 373px;
 	display: block;
 	box-shadow: 0 6px 24px rgba(17,17,17,0.08);
 	border-radius: 6px;
