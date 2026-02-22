@@ -6,11 +6,10 @@ html, body {
 main {
   display: block;
   padding: 20px;
-  max-width: 1200px; /* or whatever width you prefer */
-  margin: 0 auto;    /* centers the main element */
 }
 
 .container {
+	position: relative;  
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -20,19 +19,12 @@ main {
 
 .gif-wrapper {
 	position: relative;
-	margin-bottom: 20px; /* Space between gif and text below */
-}
-
-.text-below {
-	font-family: 'Atkinson Hyperlegible', sans-serif;
-	font-size: 11px; /* Adjust as needed */
-	color: #333333;
-	text-align: right;
-	margin: 0;
+	margin-bottom: 20px;
 }
 
 .image-caption {
-	font-family: arial, sans-serif;
+	position: absolute;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
 	font-size: 6pt;
 	color: #999999;
 	margin: 0;
@@ -40,19 +32,19 @@ main {
 	padding-right: 4px;
 	right: 8px;
 	bottom: 8px;
-	position: absolute;
 }
 
-.page-content {
-	width: 100%;
-	max-width: 1200px;
+.text-below {
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	font-size: 14px;
+	color: #333333;
+	text-align: center;
+	margin: 0;
+	max-width: 600px;
 }
-
 
 @media (max-width: 720px) {
 	.container {
 		padding: 28px 16px;
 	}
 }
-
-	
