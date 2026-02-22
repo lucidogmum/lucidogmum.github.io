@@ -11,23 +11,36 @@ main {
 }
 
 .container {
-	position: relative;  
 	display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.gif-wrapper {
+	position: relative;
+	margin-bottom: 20px; /* Space between gif and text below */
+}
+
+.text-below {
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	font-size: 11px; /* Adjust as needed */
+	color: #333333;
+	text-align: center;
+	margin: 0;
 }
 
 .image-caption {
-	position: absolute;
-	font: arial, sans-serif;
-	font-size: 6px;
+	font-family: arial, sans-serif;
+	font-size: 6pt;
 	color: #999999;
 	margin: 0;
 	letter-spacing: 0.3px;
 	padding-right: 4px;
 	right: 8px;
 	bottom: 8px;
+	position: absolute;
 }
 
 .page-content {
@@ -36,11 +49,10 @@ main {
 }
 
 
-
 @media (max-width: 720px) {
 	.container {
-		grid-template-columns: 1fr;
 		padding: 28px 16px;
 	}
+}
 
 	
