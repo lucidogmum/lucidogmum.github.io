@@ -3,21 +3,23 @@ html, body {
 	margin: 0;
 }
 
+main {
+  display: block;
+  padding: 20px;
+  max-width: 1200px; /* or whatever width you prefer */
+  margin: 0 auto;    /* centers the main element */
+}
+
 .container {
-  display: flex;
+	position: relative;  
+	display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh; /* Full viewport height */
 }
 
-
-main {
-	display: block;
-	padding: 20px;
-}
-
-
 .image-caption {
+	position: absolute;
 	font: arial, sans-serif;
 	font-size: 6px;
 	color: #999999;
