@@ -4,11 +4,10 @@ html, body {
 }
 
 .container {
-	min-height: 100vh;
-	display: grid;
-	grid-template-columns: 1fr;
-	align-items: start;
-	justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
 }
 
 
@@ -17,21 +16,6 @@ main {
 	padding: 20px;
 }
 
-#hero {
-	width: 500px;
-	height: 373px;
-	display: block;
-	box-shadow: 0 6px 24px rgba(17,17,17,0.08);
-	border-radius: 6px;
-}
-
-.hero-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 8px;
-	position: relative;
-}
 
 .image-caption {
 	font: arial, sans-serif;
@@ -40,7 +24,6 @@ main {
 	margin: 0;
 	letter-spacing: 0.3px;
 	padding-right: 4px;
-	position: absolute;
 	right: 8px;
 	bottom: 8px;
 }
@@ -59,9 +42,3 @@ main {
 	}
 
 	
-
-	#hero { max-width: 90%; }
-
-
-}
-
