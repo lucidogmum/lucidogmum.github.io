@@ -19,6 +19,18 @@ main {
 	z-index: 10;
 }
 
+
+#title {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	font-size: 18px;
+	color: #333333;
+	margin: 0;
+	z-index: 10;
+}
+
 .container {
 	position: relative;  
 	display: flex;
