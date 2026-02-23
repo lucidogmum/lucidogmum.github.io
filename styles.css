@@ -4,8 +4,19 @@ html, body {
 }
 
 main {
-  display: block;
-  padding: 20px;
+	display: block;
+	padding: 20px;
+}
+
+#title {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+	font-size: 18px;
+	color: #333333;
+	margin: 0;
+	z-index: 10;
 }
 
 .container {
